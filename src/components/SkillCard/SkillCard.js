@@ -2,10 +2,9 @@ import React from 'react';
 
 import './skill-card.css';
 
-export const SkillCard = (props) => {
-    return (
-        <div className="skill-card">
-
-        </div>
+export const SkillCard = ({ skill }) => {
+    return ( <
+        div className = "skill-card" > { skill } <
+        /div>
     )
 }
