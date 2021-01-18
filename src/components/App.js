@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import { Portfolio } from './Portfolio/Portfolio';
 
-import { about } from './../constants/About';
-import { skills } from './../constants/Skills';
-import { projects } from './../constants/Projects';
+import { about } from '../constants/About';
+import { skills } from '../constants/Skills';
+import { projects } from '../constants/Projects';
 import './App.css';
 
 class App extends Component {

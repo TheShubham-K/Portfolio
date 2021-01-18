@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SideNav } from './../SideNav/SideNav';
+import { SideNav } from '../SideNav/SideNav';
 import { SectionContainer } from '../SectionContainer/SectionContainer';
 
 import './portfolio.css';
@@ -27,7 +27,8 @@ export const Portfolio = ({
 					selectedQuote={selectedQuote}
 					about={about}
 					skills={skills}
-					projects={projects} />
+					projects={projects}
+                    />
             </div>
         </div>
     );
